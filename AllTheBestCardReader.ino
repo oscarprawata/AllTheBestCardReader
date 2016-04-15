@@ -72,6 +72,12 @@ void jackpot() {
   lcd.print("You won a");
   lcd.setCursor(4, 1);
   lcd.print("JACKPOT!");
+  
+  // Final Fantasy Victory Fanfare
+  // Ref: http://www.musicnotes.com/sheetmusic/mtd.asp?ppn=MN0056213
+  // Key E-flat (Flat notes: B-flat (A-sharp), E-flat (D-sharp), A-flat (G-sharp))
+  // Tempo Allegro Brillante 152bpm (1 beat = 394.7ms)
+  
   tone(8,NOTE_DS5,131);
   delay(132);
   tone(8,NOTE_DS5,131);
@@ -90,7 +96,16 @@ void jackpot() {
   delay(132);
   tone(8,NOTE_DS5,1185);
   delay(1186);
+  
   lcd.clear();
   delay(200);
 }
 
+void StarWarsMainTheme() {
+	// Star Wars Main Theme
+	//
+	// Tempo: Majestically, steady march 108bpm (1 beat = 555.5ms)
+}
+
+void StarWarsImperialMarch() {
+}
