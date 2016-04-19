@@ -102,10 +102,89 @@ void jackpot() {
 }
 
 void StarWarsMainTheme() {
-	// Star Wars Main Theme
-	//
-	// Tempo: Majestically, steady march 108bpm (1 beat = 555.5ms)
+	// Star Wars (Main Theme)
+	// Key G (Sharp notes: F-sharp)
+	// Tempo: Majestically, steady march 108bpm (1 beat = 555.5ms => 555ms)
+
+  tone(8, NOTE_D3, 180);
+  delay(185);
+  tone(8, NOTE_D3, 180);
+  delay(185);
+  tone(8, NOTE_D3, 180);
+  delay(185);
+  tone(8, NOTE_G3, 1110);
+  delay(1110);
+  tone(8, NOTE_D4, 1110);
+  delay(1110);
+  tone(8, NOTE_C4, 185);
+  delay(185);
+  tone(8, NOTE_B3, 185);
+  delay(185);
+  tone(8, NOTE_A3, 185);
+  delay(185);
+  tone(8, NOTE_G4, 1110);
+  delay(1110);
+  tone(8, NOTE_D4, 555);
+  delay(555);
+  tone(8, NOTE_C4, 185);
+  delay(185);
+  tone(8, NOTE_B3, 185);
+  delay(185);
+  tone(8, NOTE_A3, 185);
+  delay(185);
+  tone(8, NOTE_G4, 1110);
+  delay(1110);
+  tone(8, NOTE_D4, 555);
+  delay(555);
+  tone(8, NOTE_C4, 185);
+  delay(185);
+  tone(8, NOTE_B3, 185);
+  delay(185);
+  tone(8, NOTE_C4, 185);
+  delay(185);
+  tone(8, NOTE_A3, 1110);
+  delay(1110);
 }
 
 void StarWarsImperialMarch() {
+  // The Imperial March (Darth Vater's Theme)
+  // Key A (Sharp notes: F-sharp, C-sharp, G-sharp)
+  // Tempo: March 120bpm (1 beat = 500ms)
+
+  tone(8, NOTE_FS3, 450);
+  delay(500);
+  tone(8, NOTE_FS3, 450);
+  delay(500);
+  tone(8, NOTE_FS3, 450);
+  delay(500);
+  tone(8, NOTE_D3, 325);
+  delay(375);
+  tone(8, NOTE_A3, 75);
+  delay(125);
+  tone(8, NOTE_FS3, 450);
+  delay(500);
+  tone(8, NOTE_D3, 325);
+  delay(375);
+  tone(8, NOTE_A3, 75);
+  delay(125);
+  tone(8, NOTE_FS3, 950);
+  delay(1000);
+  tone(8, NOTE_CS4, 450);
+  delay(500);
+  tone(8, NOTE_CS4, 450);
+  delay(500);
+  tone(8, NOTE_CS4, 450);
+  delay(500);
+  tone(8, NOTE_D4, 325);
+  delay(375);
+  tone(8, NOTE_CS4, 75);
+  delay(125);
+  tone(8, NOTE_F3, 450);
+  delay(500);
+  tone(8, NOTE_D3, 325);
+  delay(375);
+  tone(8, NOTE_A3, 75);
+  delay(125);
+  tone(8, NOTE_FS3, 950);
+  delay(1000);
 }
